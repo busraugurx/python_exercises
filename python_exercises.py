@@ -9,9 +9,9 @@ print("""****** ATM UYGULAMASI ******
 3)PARA YATIRMA
 ÇIKMAK İÇİN Q'YA BASIN.
 """)
+bakiye = 3000
 while True:
     işlem = input("İŞLEM SEÇİN: ")
-    bakiye = 3000
     if(işlem=="q"):
         print("YİNE BEKLERİZ...")
         break
